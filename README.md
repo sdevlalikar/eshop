@@ -36,6 +36,8 @@ npm run install
 cd.. // return to folder-name
 cd client
 npm run install
+set NODE_OPTIONS=--openssl-legacy-provider
+npm i --save --legacy-peer-deps
 ```
 
 <br/>
